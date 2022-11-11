@@ -159,8 +159,8 @@
 }
     .banner{
         position: absolute;
-       margin-left: 10%;
-       margin-top: 8rem;
+       margin-left: 2%;
+       margin-top: 6rem;
       
       }
       .media__content{
@@ -170,13 +170,12 @@
     }
     .banner button {
         font-family: var(--roboto);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-transform: capitalize;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         background: rgba(0,0,0,0);
         color: #fff;
         border: 1px solid white;
-        padding: 2px 2px;
        
     }
     .portfolio button{
