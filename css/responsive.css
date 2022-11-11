@@ -41,7 +41,7 @@
 
 @media screen  and (max-width:986px) {
     .container{
-        max-width: 800px;
+        max-width: 1320px;
         margin: 0 auto;
     }
 
@@ -110,7 +110,7 @@
 
 @media screen  and (max-width:768px){
     .container{
-        width: 100%;
+        width: 1320px;
         margin: 0 auto;
     }
    
@@ -135,6 +135,28 @@
         height: 8vh;
         z-index: 999;
     }
+    
+.logo a{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: var(--roboto);
+    margin-left: 1rem;
+}
+.logo .fa-bars{
+    font-size: 1.5rem;
+}
+.navbar__nav{
+    margin-top: 0.8%;
+}
+.navbar__nav a{
+    background-color: dimgray;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
     .banner{
         position: absolute;
        margin-left: 10%;
@@ -145,6 +167,17 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
+    }
+    .banner button {
+        font-family: var(--roboto);
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        background: rgba(0,0,0,0);
+        color: #fff;
+        border: 1px solid white;
+        padding: 5px 5px ;
+        margin-left: 2%;
     }
     .portfolio button{
         padding: 0.2rem 0.8rem;
@@ -174,7 +207,7 @@
         word-spacing: -2px;
         width: 350px;
         height: 40px;
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .pay__content{
         display: grid;
@@ -196,6 +229,11 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
         margin-bottom: 8rem;
+    }
+    .footer__item{
+        cursor: grab;
+        border-top: 0px solid dimgray;
+        padding: 20px;
     }
 
 }
