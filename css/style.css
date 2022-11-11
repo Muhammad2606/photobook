@@ -110,7 +110,7 @@ img{
 /* social__media */
 
 .social__media{
-    padding: 4.8rem;
+    width: 100%;
 
 }
 .media__content{
@@ -211,7 +211,7 @@ img{
 
 /* portfolio */
 .portfolio{
-    padding: 4.8rem;
+    width: 100%;
     background-color: #F3F0E7;
 }
 .portfolio__title{
@@ -265,7 +265,7 @@ img{
 /* books */
 
     .books{
-        padding: 4.8rem;
+        width: 100%;
         background-color: #fff;
     }
     .books__title{
@@ -328,7 +328,7 @@ img{
     /* about */
 
     .about{
-        padding: 4.8rem;
+        width: 100%;
         background-color: #F7F0E6;
     }
 
@@ -407,7 +407,7 @@ img{
     /* pay  */
 
     .pay{
-        padding: 4.8rem;
+        width: 100%;
         background-color: #fff;
     }
     .pay__content{
@@ -460,7 +460,7 @@ img{
     /* footer  */
 
     .footer{
-        padding: 4.8rem;
+       width: 100%;
         background-color: #FFD200;
     }
     .footer__content{
@@ -499,4 +499,3 @@ img{
         text-align: center;
     }
 
-    
