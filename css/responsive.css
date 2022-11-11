@@ -141,4 +141,61 @@
        margin-top: 8rem;
       
       }
+      .media__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .portfolio button{
+        padding: 0.2rem 0.8rem;
+        font-family: var(--roboto);
+        text-transform: capitalize;
+        margin-left: 15%;
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    .books__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+        margin-top: 4rem;
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns:100%;
+        gap: 3rem;
+    }
+    .about__item  button{
+        margin-top: 4rem;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        word-spacing: -2px;
+        width: 350px;
+        height: 40px;
+        margin-left: 10%;
+    }
+    .pay__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .pay button{
+        margin-top: 8rem;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        word-spacing: -2px;
+        width: 350px;
+        height: 40px;
+        margin-left: 2%;
+    }
+    .footer__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        margin-bottom: 8rem;
+    }
+
 }
